@@ -24,3 +24,8 @@ CC BY 4.0 -> Para as coisas que eu escrever
 
 - [Use nuxt@mdc](https://www.docs4.dev/posts/how-to-render-markdown-in-nuxt-3-and-highlight-syntax-nuxt-mdc)
 - [Shiki Highlight](https://shiki.style/guide/)
+- [Responsive MathJax](https://stackoverflow.com/questions/29893923/how-to-make-formula-with-mathjax-responsive)
+- [Custom CodeBlock](https://mokkapps.de/blog/how-to-create-a-custom-code-block-with-nuxt-content-v2) 
+- [Prose Components](https://masteringnuxt.com/blog/mastering-prose-components-in-nuxt-content)
+- [Three.js on Nuxt](https://www.vuemastery.com/blog/building-a-3d-scene-in-nuxt-with-tresjs/#setting-up-nuxtjs-for-3d)
+
