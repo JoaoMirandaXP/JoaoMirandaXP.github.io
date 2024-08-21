@@ -1,5 +1,8 @@
 <script setup lang="ts">
 const route = useRoute()
+useHead({
+	title: 'Ideias!'
+})
 </script>
 
 <template>

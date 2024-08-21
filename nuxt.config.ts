@@ -1,15 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app:{
-    header:{
-      link: [{rel: 'icon', type: 'image/x-icon', href:'/favicon.ico'}],
-
+  head:{
+      link: [{rel: 'icon', type: 'image/x-icon',href:'favicon.ico'}],
       script: [{
-          defer: true,
-          src:'https://cloud.umami.is/script.js',
-          'data-website-id': 'ae744627-2ef1-44ab-8cb2-6601add9c753'
-        }
-      ],
+        defer: true,
+        src:'https://cloud.umami.is/script.js',
+        'data-website-id':'ae744627-2ef1-44ab-8cb2-6601add9c753'
+      }]
     },
   },
   compatibilityDate: '2024-04-03',
