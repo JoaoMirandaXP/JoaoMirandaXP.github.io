@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   app:{
   head:{
-      link: [{rel: 'icon', type: 'image/x-icon',href:'favicon.ico'}],
+      link: [{rel: 'icon', type: 'image/x-icon',href:'/favicon.ico'}],
       script: [{
         defer: true,
         src:'https://cloud.umami.is/script.js',
