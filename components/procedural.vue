@@ -1,9 +1,7 @@
 <template>
-  <div>
-    <canvas id="c">
+  <div class="z-[-9999] absolute w-full h-full m-0 p-0">
+    <!--Common to use an iframe for this-->
 
-    </canvas>
-    Here will be the canvas
   </div>
 </template>
 <script>

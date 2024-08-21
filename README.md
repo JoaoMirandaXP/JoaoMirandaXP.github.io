@@ -20,3 +20,7 @@ CC BY 4.0 -> Para as coisas que eu escrever
 - [ ] Homepage fazer o drop down menu
 - [ ] Fix Shiki python extension
 
+## Resources
+
+- [Use nuxt@mdc](https://www.docs4.dev/posts/how-to-render-markdown-in-nuxt-3-and-highlight-syntax-nuxt-mdc)
+- [Shiki Highlight](https://shiki.style/guide/)
