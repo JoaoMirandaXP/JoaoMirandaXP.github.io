@@ -12,6 +12,6 @@ const route = useRoute()
 	">
     <AppHeader />
     <AppMain />
-    <AppFooter/>
+    <AppFooter />
   </div>
 </template>

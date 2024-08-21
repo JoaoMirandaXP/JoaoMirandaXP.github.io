@@ -43,7 +43,7 @@
                 ">
           <li class="px-1 rounded-md md:p-1 hover:shadow-inner"><NuxtLink to="/sobre">Sobre</NuxtLink></li>
           <li class="px-1 rounded-md md:p-1 hover:shadow-inner"><NuxtLink to="/posts">Posts</NuxtLink></li>
-          <li class="px-1 rounded-md md:p-1 hover:shadow-inner">Currículo</li>
+          <li class="px-1 rounded-md md:p-1 hover:shadow-inner"><NuxtLink to="/curriculo">Currículo</NuxtLink></li>
           <li class="px-1 md:p-1"><ThemeSelector /></li>
       </ul>
     </nav>

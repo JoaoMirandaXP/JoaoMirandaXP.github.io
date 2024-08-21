@@ -10,7 +10,7 @@ CC BY 4.0 -> Para as coisas que eu escrever
 ## To-do
 
 - [X] Personalizar a página
-- [ ] Umami para análisar o tráfego
+- [X] Umami para análisar o tráfego
 - [X] Wrap code
 - [X] Fazer o yt embed
 - [X] Ajustar opções de build no github
