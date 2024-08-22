@@ -1,0 +1,7 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+mjx-container[jax="SVG"][display="true"]{
+  @apply text-dark overflow-x-auto dark:text-light;
+}

@@ -7,6 +7,8 @@ const { data } = await useAsyncData('config', () => queryContent('/config').find
 	<div
 	class="p-8 mx-auto self-end">
 	<footer class="grid md:grid-cols-2">
+
+    <NuxtLink to="/">
 		<div class="text-center">
 		<span
 		class="font-bold text-dark dark:text-light">
@@ -14,6 +16,7 @@ const { data } = await useAsyncData('config', () => queryContent('/config').find
 		</span>
 		<p class="text-dark dark:text-light"> {{anoAtual}} </p>
 		</div>
+    </NuxtLink>
 		<div id="Contatos" class="grid grid-rows-auto md:grid-cols-2 align-items-center">
 			<NuxtLink :to="'mailto://' + data.email" target="_blank">
 		<div id="Email" class="rounded text-white m-4">
