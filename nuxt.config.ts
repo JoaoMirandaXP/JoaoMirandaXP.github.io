@@ -26,7 +26,8 @@ export default defineNuxtConfig({
 		theme: {
 			dark: "github-dark",
 			light: "one-dark-pro"
-		}
+		},
+    langs:[ 'c', 'cpp', 'python', 'java','json', 'js', 'ts', 'html', 'css', 'vue', 'shell', 'mdc', 'md', 'yaml']
 	}
   },
   mdc:{

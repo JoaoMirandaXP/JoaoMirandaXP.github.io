@@ -14,7 +14,10 @@ CC BY 4.0 -> Para as coisas que eu escrever
 - [X] Wrap code
 - [X] Fazer o yt embed
 - [X] Ajustar opções de build no github
+- [X] Fix math color
+- [ ] Fix customComponent
 - [ ] Wrap math
+- [ ] inline math
 - [ ] Ajustar header no post id + data de postagem + categorias e tags
 - [ ] Fazer página de currículo(nos idiomas que eu puder)
 - [ ] Homepage fazer o drop down menu
