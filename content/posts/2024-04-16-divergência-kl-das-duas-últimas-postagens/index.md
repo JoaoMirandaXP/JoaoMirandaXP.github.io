@@ -235,14 +235,14 @@ E isso pode ser explicado com a ajuda do histograma abaixo
 
 ### Histogramas
 
-![Figura 1 - Histograma](/assets/posts/20240416/Figure_1-darkmode.png ){:.dark .w-100}
-![Figura 1 - Histograma](/assets/posts/20240416/Figure_1-lightmode.png ){:.light .w-100}
+![Figura 1 - Histograma](Figure_1-darkmode.png ){:.dark .w-100}
+![Figura 1 - Histograma](Figure_1-lightmode.png ){:.light .w-100}
 _Histograma das distribuições_
 
 Muito bem, talvez eu tenha exagerado no intervalo... Por isso irei limitá-lo até a última incidência de caracteres.
 
-![Figura 2 - Histograma](/assets/posts/20240416/Figure_2-darkmode.png ){:.dark .w-100}
-![Figura 2 - Histograma](/assets/posts/20240416/Figure_2-lightmode.png ){:.light .w-100}
+![Figura 2 - Histograma](Figure_2-darkmode.png ){:.dark .w-100}
+![Figura 2 - Histograma](Figure_2-lightmode.png ){:.light .w-100}
 _Histograma das distribuições_
 
 E possível compreender melhor porquê que as distribuições estão "inifinitamente" distantes, pois há caracteres normalmente utilizados em português que eu não utilizei em minhas linhas, e vice-versa!
@@ -274,8 +274,8 @@ D(alencar||doyle)= inf bits
 
 Que pode ter acontecido ? Ao inspecionar a distribuição de caracteres, percebi o seguinte...
 
-![Figura 3 - Histograma](/assets/posts/20240416/Figure_3-darkmode.png ){:.dark .w-100}
-![Figura 3 - Histograma](/assets/posts/20240416/Figure_3-lightmode.png ){:.light .w-100}
+![Figura 3 - Histograma](Figure_3-darkmode.png ){:.dark .w-100}
+![Figura 3 - Histograma](Figure_3-lightmode.png ){:.light .w-100}
 _Histograma das distribuições_
 
 "X" só aparece em "A Pata da Gazela" e "(K, W, Y)" só aparece em "A Study in Scarlet" 
@@ -303,7 +303,7 @@ Mas esse é apenas uma tabela de correlação para mapear os caracteres(code poi
 
 A representação de cima pertence ao plano 0 do unicode.Isto é aos primeiros $ 16^4 = 65 536 $ code points. Mas podemos adicionar um prefixo de 1-F e gerar os demais 16 planos. Tendo assim $ 1 114 112 $[^fn-nth-2] code points. Os planos 4-D ainda não foram utilizados. O que nos dá algum tempo para inventar novos caracteres para evitar que o [_newspeak_](https://en.wikipedia.org/wiki/Newspeak) torne-se uma realidade.
 
-![Figura 4 -wikipedia](/assets/posts/20240416/Figure_4-wikipedia.png ){: .w-100}
+![Figura 4 -wikipedia](Figure_4-wikipedia.png ){: .w-100}
 _Plano 0 do Unicode - Fonte: Wikipédia_
 
 Como podemos perceber, mal tocamos a superfície dos 3 primeiros blocos do primeiro plano.
@@ -441,8 +441,8 @@ D(alencar||doyle)= 1.915881083528522e-06 bits
 [0.4766607641124705, 0.5233392358875295] [0.4758468150403702, 0.5241531849596298]
 ```
 
-![Figura 5 - Histograma](/assets/posts/20240416/Figure_5-darkmode.png ){:.dark .w-100}
-![Figura 5 - Histograma](/assets/posts/20240416/Figure_5-lightmode.png ){:.light .w-100}
+![Figura 5 - Histograma](Figure_5-darkmode.png ){:.dark .w-100}
+![Figura 5 - Histograma](Figure_5-lightmode.png ){:.light .w-100}
 _Histograma das distribuições_
 
 

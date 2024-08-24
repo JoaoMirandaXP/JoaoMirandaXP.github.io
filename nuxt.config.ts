@@ -39,15 +39,4 @@ export default defineNuxtConfig({
     }
   },
   },
-  vue: {
-    compilerOptions:{
-      isCustomElement: (tag) => (tag === 'MjxContainer' ||
-                                 tag === 'G' ||
-                                 tag === 'Path' ||
-                                 tag === 'Use' ||
-                                 tag === 'Rect' ||
-                                 tag === 'Line' ||
-                                 tag === 'Defs')
-    },
-  },
 })
