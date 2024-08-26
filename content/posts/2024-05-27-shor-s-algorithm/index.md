@@ -37,15 +37,19 @@ There are some considerations we might need to do. Remember the [interesting way
 
 This is how we can write for **one single particle** in superpostition state:
 
+
 $$
 | \Psi ⟩ = c_0 | 0 ⟩ + c_1 | 1 ⟩ 
 $$
 
+
 Which is equivalent to this using the [bra-ket notation](https://en.wikipedia.org/wiki/Bra%E2%80%93ket_notation)
+
 
 $$
 | \Psi ⟩ = c_0 | 0 ⟩ + c_1 | 1 ⟩ =  \begin{pmatrix} c_0 \\ 0 \end{pmatrix} + \begin{pmatrix} 0 \\ c_1 \end{pmatrix} = \begin{pmatrix} c_0 \\ c_1 \end{pmatrix}
 $$
+
 
 But how can we represent superstates with many quantum particles ?
 

@@ -12,8 +12,6 @@
   },
   "dependencies": {
     "nuxt": "^3.12.4",
-    "rehype-mathjax": "^6.0.0",
-    "remark-math": "^6.0.0",
     "three": "^0.167.1",
     "vue": "latest"
   },

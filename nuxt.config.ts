@@ -24,14 +24,5 @@ export default defineNuxtConfig({
         },
     langs:[ 'c', 'cpp', 'python', 'java','json', 'js', 'ts', 'html', 'css', 'vue', 'shell', 'mdc', 'md', 'yaml']
     }
-  },
-  mdc:{
-    remarkPlugins: {
-      remarkMath: {src: 'remark-math'}},
-    rehypePlugins: {
-    rehypeMathjax: {
-      src: 'rehype-mathjax',
-    }
-  },
-  },
+  }
 })
