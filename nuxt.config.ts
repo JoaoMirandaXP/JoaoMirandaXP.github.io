@@ -12,28 +12,23 @@ export default defineNuxtConfig({
   },
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: [
-    '@nuxtjs/tailwindcss',
-    '@nuxt/content',
-    'nuxt-content-assets',
-    '@nuxtjs/color-mode'
-  ],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/content', 'nuxt-content-assets', '@nuxtjs/color-mode', '@nuxt/image'],
   colorMode: {
   classSuffix: '',
   },
   content: {
-	highlight :{
-		theme: {
-			dark: "github-dark",
-			light: "one-dark-pro"
-		},
+    highlight :{
+        theme: {
+            dark: "github-dark",
+            light: "one-dark-pro"
+        },
     langs:[ 'c', 'cpp', 'python', 'java','json', 'js', 'ts', 'html', 'css', 'vue', 'shell', 'mdc', 'md', 'yaml']
-	}
+    }
   },
   mdc:{
     remarkPlugins: {
       remarkMath: {src: 'remark-math'}},
-	rehypePlugins: {
+    rehypePlugins: {
     rehypeMathjax: {
       src: 'rehype-mathjax',
     }

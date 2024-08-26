@@ -1,14 +1,11 @@
 <template>
-  <div class="border rounded border-dark dark:border-light">
-  <component
-    :is="imgComponent"
+  <img
     :src="refinedSrc"
     :alt="alt"
     :width="width"
     :height="height"
-    class="container"
+    class="p-auto"
   />
-  </div>
 </template>
 
 <script setup lang="ts">
@@ -45,4 +42,5 @@ const refinedSrc = computed(() => {
   }
   return props.src
 })
+
 </script>
