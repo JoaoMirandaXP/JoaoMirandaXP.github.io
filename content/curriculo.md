@@ -9,6 +9,7 @@ I'd like to share with you some of the things I'm (or was) engaged with, I like 
 
 # Work Experience
 In high school I was the press director of one of the ONU simulations that happened there every year, therefore I responsabilized myself for creating the environment for my friends work in a form of a wordpress site and for task delegation, during the event I was also responsible for live transmissions of the news of the events as well as dealing with some editors(portuguese teachers) to assure quality of those.
+Currently, I work in an agile team at Banco do Brasil as Java Backend developer for language parsing.  
 
 # Education
 
